@@ -11,7 +11,7 @@ using namespace std;
 class Singleton
 {
 private:
-	static Singleton* singleton;
+	static atomic<Singleton*> singleton;
 	static mutex mutex_;
 protected:
 	Singleton(const string value) :value_(value)

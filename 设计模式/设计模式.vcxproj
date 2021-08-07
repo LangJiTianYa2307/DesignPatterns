@@ -139,11 +139,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractFactory.cpp" />
+    <ClCompile Include="Bridge.cpp" />
+    <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="FlyWeight.cpp" />
+    <ClCompile Include="Notifiers.cpp" />
+    <ClCompile Include="Prototype.cpp" />
     <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="Stratege.cpp" />
+    <ClCompile Include="TemplateMethod.cpp" />
+    <ClCompile Include="ImpTemplateMethod.cpp" />
     <ClCompile Include="设计模式.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="Bridge.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="FlyWeight.h" />
+    <ClInclude Include="Notifiers.h" />
+    <ClInclude Include="Prototype.h" />
     <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Stratege.h" />
+    <ClInclude Include="TemplateMethod.h" />
+    <ClInclude Include="ImpTemplateMethod.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
